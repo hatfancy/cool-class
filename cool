@@ -1,0 +1,111 @@
+
+
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+   
+    def area(self):
+        return self.length * self.width
+
+    
+    def perimeter(self):
+        return 2 * (self.length + self.width)
+
+    def modify(self, length=None, width=None):
+        if length is not None:
+            self.length = length
+        if width is not None:
+            self.width = width
+
+
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    
+    def area(self):
+        return 3.1416 * self.radius ** 2
+
+    
+    def perimeter(self):
+        return 2 * 3.1416 * self.radius
+
+    
+    def modify(self, radius=None):
+        if radius is not None:
+            self.radius = radius
+
+
+rect = Rectangle(10 ,25)
+print("Rectangle Area:", rect.area())          
+print("Rectangle Perimeter:", rect.perimeter())
+
+circ = Circle(7)
+print("Circle Area:", circ.area())             
+print("Circle Perimeter:", circ.perimeter())   
+
+   
+   
+   
+   
+   
+   
+    #Create class rectangle and circle with properties length, width, radius and methods to calculate area,perimeter and modify the properties.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
